@@ -176,6 +176,12 @@ article img {
   text-transform: capitalize;
 }
 
+.hero-text h1 span {
+  color: var(--main-color-light);
+  mix-blend-mode: multiply;
+  /* screen, overlay, multiply, difference... */
+}
+
 .hero-text p {
   color: #fff;
   font-size: clamp(16px, 3vw, 4rem);
